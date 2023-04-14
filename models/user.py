@@ -13,7 +13,7 @@ class User(BaseModel, Base):
     Attributes:
         email: email address
         password: password for you login
-        first_name: first name
+        first_name: first name 
         last_name: last name 
     """
     __tablename__ = "users"

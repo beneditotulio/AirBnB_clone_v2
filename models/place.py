@@ -73,7 +73,7 @@ class Place(BaseModel, Base):
 
         @property
         def amenities(self):
-            """ Returns list of amenity ids """
+            """ Returns list of amenity ids  """
             return self.amenity_ids
 
         @amenities.setter
