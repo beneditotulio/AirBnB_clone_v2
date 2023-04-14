@@ -14,7 +14,7 @@ class User(BaseModel, Base):
         email: email address
         password: password for you login
         first_name: first name
-        last_name: last name
+        last_name: last name 
     """
     __tablename__ = "users"
     email = Column(String(128), nullable=False)
